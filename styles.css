@@ -1,0 +1,30 @@
+
+  body {
+    background-color: #FFF9F9;
+    background: linear-gradient(to bottom,
+            #FFF9F9 10%,
+            #EBF1F1 40%,
+            #D1E8E4 90%
+
+            );
+  }
+
+  /* hr {
+    border-style: dotted none none none;
+    background-color: white;
+    border-color: grey;
+    border-width: 5px;
+    width: 20%
+  } */
+
+  h1 {
+    color: #533E85;
+  }
+
+  h2 {
+    color: #533E85;
+  }
+
+  h3 {
+    color: #533E85;
+  }
