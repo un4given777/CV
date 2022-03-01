@@ -1,0 +1,136 @@
+html {
+    scroll-behavior: smooth;
+}
+
+.active {
+    font-weight: bold;
+}
+
+.sidenav {
+  width: 125px;
+  position: fixed;
+  border-radius: 25px;
+  z-index: 1;
+  top: 15vw;
+  left: 89vw;
+  background: #7a8789;
+  overflow-x: hidden;
+  padding: 8px 0;
+
+}
+
+.sidenav a {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 20px;
+  color: #EEEFF3;
+  display: block;
+
+}
+
+.sidenav a:hover {
+  color: #60d6ba;
+
+}
+
+.main {
+  margin-left: 125px; /* Same width as the sidebar + left position in px */
+  font-size: 20px; /* Increased text to enable scrolling */
+  padding: 0 10px;
+
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+
+
+
+.contmen {
+    position: fixed;
+    top: 250px;
+    left: 0;
+    z-index: 99999;
+}
+
+.bg-c {
+    background-color: #E2E2E0;
+    margin: 0;
+    border: 0;
+    padding: 0;
+    width: 100%;
+    height: 100vh;
+  }
+
+.bg-0 {
+  width: 100%;
+  height: 100vh;
+  background-image: url("https://a.radikal.ru/a15/2203/65/17f2a8779121.jpg");
+  background-color: #cccccc;
+  /* opacity: 0.4; */
+  /* position: fixed; */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+
+.bg-1 {
+    background-color: #e5f7de;
+    height: 100vh;
+
+
+}
+
+.bg-2 {
+    background-color: #EDEEF1;
+
+
+}
+.bg-3 {
+    background-color: #e5f7de;
+
+}
+.bg-4 {
+    background-color: #EDEEF1;
+    height: 100vh;
+}
+
+.bg-5 {
+    background-color: #e5f7de;
+    height: 100vh;
+
+}
+
+
+  body {
+    margin: 0;
+    -webkit-scroll-behavior: smooth;
+
+  }
+
+  hr {
+    border-style: solid;
+    background-color: #EEEFF3;
+    border-color: #848a8e;
+    border-width: 1;
+    width: 20%
+  }
+
+  h1 {
+    color: #533E85;
+    margin: 0;
+  }
+
+  h2 {
+    color: #533E85;
+    margin: 0;
+  }
+
+  h3 {
+    color: #533E85;
+    margin: 0;
+  }
